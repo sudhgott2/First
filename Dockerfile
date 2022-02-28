@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY out/production/First /tmp
+COPY target/classes/ /tmp
 WORKDIR /tmp
 CMD java com.test.Main
